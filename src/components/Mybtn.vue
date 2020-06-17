@@ -48,7 +48,7 @@ export default {
 
  computed: {
     btnStyle () {
-      console.log(this.btn_width)
+      // console.log(this.btn_width)
       return  {
         'width': `${this.btn_width}px`,
         'height':`${this.btn_hight}px`,
